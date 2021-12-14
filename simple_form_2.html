@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        table {
+            font-family: sans-serif;
+            background-color: rgb(255, 252, 173);
+        }
+        .caption {
+            background-color: rgb(213, 252, 215);
+            font-size: 20pt;
+            color: blue;
+        }
+        .title {
+            float: left;
+            color: blue;
+        }
+    </style>
+    <form action="" method="post">
+        <table>
+            <tr>
+                <td class="caption" colspan="2">ĐĂNG KÝ HỌC VIÊN</td>
+            </tr>
+            <tr>
+                <td class="title">Họ và tên</td>
+                <td>
+                    <input type="text" name="name" size="40">
+                </td>
+            </tr>
+            <tr>
+                <td class="title">Ngày sinh</td>
+                <td>
+                    <input type="text" name="birth" size="20">
+                </td>
+            </tr>
+            <tr>
+                <td class="title">Giới tính</td>
+                <td>
+                    <input type="radio" name="sex" id="">Nam
+                    <input type="radio" name="sex">Nữ
+                </td>
+            </tr>
+            <tr>
+                <td class="title">Địa chỉ</td>
+                <td>
+                    <textarea name="address" cols="30" rows="5"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td class="title">Lớp</td>
+                <td>
+                    <select name="class" id="">
+                        <option value="">-- Chọn lớp --</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="title">Email</td>
+                <td>
+                    <input type="text" name="email">
+                </td>
+            </tr>
+            <tr>
+                <td class="title">Điện thoại</td>
+                <td>
+                    <input type="text" name="phone">
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Đăng ký">
+                    <input type="reset" value="Nhập lại">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

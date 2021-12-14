@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="" method="post">
+        <table>
+            <caption>SỞ THÍCH CỦA BẠN</caption>
+            <tr>
+                <td class="title">Họ và tên</td>
+                <td><input type="text" name="yourname" value="" size="20"></td>
+            </tr>
+            <tr>
+                <td class="title">Email</td>
+                <td><input type="text" name="email" value="" size="15"></td>
+            </tr>
+            <tr>
+                <td class="title">Sở thích</td>
+                <td>
+                    <table>
+                        <tr>
+                            <td><input type="checkbox" name="hobby"><label>Thể thao</label></td>
+                            <td><input type="checkbox" name="hobby"><label>Âm nhạc</label></td>
+                            <td><input type="checkbox" name="hobby"><label>Đọc sách</label></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" name="hobby"><label>Lướt web</label></td>
+                            <td><input type="checkbox" name="hobby"><label>Chơi game</label></td>
+                            <td><input type="checkbox" name="hobby"><label>Điện ảnh</label></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" name="hobby"><label>Du lịch</label></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Gởi thông tin">
+                    <input type="reset" value="Nhập lại">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+    <style>
+        form {
+            font-family: monospace;;
+        }
+        caption {
+            background-color: rgb(255, 77, 28);
+            color: white;
+            font-size: 20pt;
+        }
+        .title {
+            color: blue;
+            float: right;
+        }
+        td {
+            color: orange;
+        }
+    </style>
+</body>
+
+</html>
